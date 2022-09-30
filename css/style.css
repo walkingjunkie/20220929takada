@@ -2,3 +2,35 @@
   margin:0;
   padding:0;
 }
+.header{
+  width: auto;
+  padding: 20px 20px;
+}
+
+.inner{
+  display: flex;
+  width: 100%;
+}
+.header__left{
+  margin-right: auto;
+}
+
+.logo{
+  width: 10%;
+  height: auto;
+}
+
+.header__right{
+  display: flex;
+  list-style: none;
+  justify-content: end;
+}
+
+.header__item{
+  margin-right:20px ;
+}
+
+a{
+  text-decoration: none;
+  color: grey;
+}
