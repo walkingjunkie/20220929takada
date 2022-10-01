@@ -74,6 +74,10 @@ width: 100%;
 }
 
 .main__news-box{
-  display: block;
-  margin: 0 auto;
+text-align: center;
+}
+
+.text__news-group{
+  text-align: left;
+  display: inline-block;
 }
