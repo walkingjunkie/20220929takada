@@ -33,6 +33,7 @@
 
 main{
   position:relative;
+  width: 100%;
 }
 
 .relative__img{
@@ -54,15 +55,25 @@ main{
 
 .emo-text{
   font-size: 60px;
-  margin: 10px 5px;
+  margin: 10px 0;
+  line-height: 2em;
 }
 
 .commit-text{
   padding-top: 40px;
-  padding-bottom: 10px;
   font-size: 25px;
 }
 
 .ETC2019-text{
 margin-bottom: 10px;
+line-height: 2em;
+}
+
+.main__news{
+width: 100%;
+}
+
+.main__news-box{
+  display: block;
+  margin: 0 auto;
 }
