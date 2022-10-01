@@ -45,3 +45,24 @@ main{
   height: 100%;
   display: block;
 }
+
+.text-group{
+  position: absolute;
+  top: 100px;
+  left: 300px;
+}
+
+.emo-text{
+  font-size: 60px;
+  margin: 10px 5px;
+}
+
+.commit-text{
+  padding-top: 40px;
+  padding-bottom: 10px;
+  font-size: 25px;
+}
+
+.ETC2019-text{
+margin-bottom: 10px;
+}
