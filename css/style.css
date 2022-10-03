@@ -191,7 +191,6 @@ width: 100%;
 
 .service__big-box{
   display: flex;
-  flex-direction: row;
   color: #fff;
   padding: 0 10px;
 }
@@ -208,9 +207,8 @@ width: 100%;
 
 .service__box_left{
   position: relative;
-  text-align: center;
-  padding: auto auto;
   background-color:#CC0066;
+  display: flex;
 }
 .service_img1 img{
   width: 20%;
@@ -218,6 +216,11 @@ width: 100%;
   margin-bottom: 20px;
 }
 
+.service__midbox_left{
+  margin:auto;
+  width: 80%;
+  height: 80%;
+}
 .service__box_right_top{
   background-color: #CC3399;
 }
