@@ -207,15 +207,25 @@ width: 100%;
 
 .service__box_left{
   background-color:#CC0066;
-  display: flex;
+  
 }
 
 
 .service_img1 img {
   display: block;
-  margin: auto 0;
-  width: 80%;
-  height: 80%;
+  margin: 0 auto;
+  width: 25%;
+  padding-top:35px;
+  padding-bottom: 15px;
+}
+
+.service_text1{
+  text-align: center;
+}
+
+.service_text__mian{
+  padding:10px 23px;
+
 }
 .service__box_right_top{
   background-color: #CC3399;
