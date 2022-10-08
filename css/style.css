@@ -36,14 +36,13 @@ main{
 }
 
 .relative__img{
-  width: 100%;
-  margin:0 0 0 auto
+  margin-left: auto;
+  margin-right: 0;
+  
   }
 
 .firstview.img{
   width:100%;
-  height: 100%;
-  display: block;
 }
 
 .text-group{
@@ -229,8 +228,12 @@ height: 100%;
 
 .service_text__mian{
   padding:10px 23px;
-
 }
+.service-right-cont{
+width:50%;
+}
+
+
 .service__box_right_top{
   background-color: #CC3399;
 }
