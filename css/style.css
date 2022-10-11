@@ -267,6 +267,8 @@ width: 100%;
   left:0;
   top:0;
   background-color: #CC0066;
+  color: #FFF;
+  padding: 10px 10px;
 }
 
 .blog_text{
