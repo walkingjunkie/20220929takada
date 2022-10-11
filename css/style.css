@@ -203,7 +203,7 @@ height:540px;
 .service__box_left{
   background-color:#CC0066;
   width: 50%;
-  
+  margin:auto;
 }
 
 
@@ -272,7 +272,8 @@ width: 100%;
 .blog_text{
   margin-top: 100pxpx;
 }
-.blog__card{position: relative;
+.blog__card{
+  position: relative;
   width: 38%;
   height: auto;
   padding:;
