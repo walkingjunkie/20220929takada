@@ -52,19 +52,30 @@ main{
 }
 
 .emo-text{
-  font-size: 60px;
+  font-size: 80px;
   margin: 10px 0;
-  line-height: 2em;
+  line-height: 1em;
+  color: #CC0099;
+  font-family: 'Amatic SC',cursive;
 }
 
+.emo-growth_text{
+  color: darkcyan;
+}
 .commit-text{
+    color: #CC0099;
   padding-top: 40px;
   font-size: 25px;
+  font-weight: bold;
+}
+.growth_kanji-text{
+  color: darkcyan;
 }
 
 .ETC2019-text{
 margin-bottom: 10px;
 line-height: 2em;
+color: gray;
 }
 
 .main__news{
@@ -85,10 +96,14 @@ padding:2px;
 .news-text{
   font-size: 15px;
   margin-bottom: 15px;
+  color: #CC0099;
+  font-family:'Amatic SC',
+    cursive;
 }
 
 .kanji-news-text{
-  font-size: 28px
+  font-size: 28px;
+  color:gray;
 }
 
 .news__ul{
@@ -120,7 +135,10 @@ padding:2px;
 }
 .main__about{
   width: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
   margin-bottom: 80px;
+  background-color:lightgray;
 }
 .main__about-box{
   margin:0 auto;
@@ -133,13 +151,15 @@ padding:2px;
 }
 
 .about-text{
-font-size:15px;
-
+font-size:20px;
+color: #CC0099;
+font-family: 'Amatic SC',cursive;
 }
 
 .subtitle-text{
 font-size: 30px;
 padding: 15px 0;
+color: gray;
 }
 
 .neon_box{
@@ -186,11 +206,18 @@ height: 100%;
 .service__text-group{
   width: 50%;
   padding: 20px auto;
-  
+}
+
+.service-text{
+font-family: 'Amatic SC', cursive;
+color: #CC0099;
+padding-bottom: 20px;
 }
 
 .kanji-service-text{
   margin-bottom: 30px;
+  color:gray;
+  font-size: 25px;
 }
 
 .service__big-box{
@@ -272,6 +299,18 @@ height:540px;
 
 .blog__text-group{
   margin-bottom: 40px;
+}
+
+.blog-text{
+  color:#CC0099;
+  font-family: 'Amatic SC', cursive;
+  padding-bottom: 20px;
+}
+
+.blog-subtext{
+  font-size: 30px;
+  padding-bottom: 15px;
+  color: gray;
 }
 
 .main__blog-box{
@@ -390,12 +429,16 @@ margin-right: 0;
 }
 
 .comp-text{
-  font-size:15px;
+  font-size:18px;
   margin-bottom: 15px;
+  color: #CC0099;
+  font-family: 'Amatic SC', cursive;
 }
 
 .comp-subtitle{
   font-size:28px;
+  color:gray;
+
 }
 
 .comp-list_tab{
@@ -414,6 +457,7 @@ background-color: lightgray;
 
 .comp-list_about{
   padding:20px 20px 15px;
+  color:gray;
 }
 
 .img-group{
@@ -448,9 +492,11 @@ position: relative;
 .contact-group{
   width: 100%;
   margin-top: 60px;
+  margin-bottom: 80px;
 }
 
 .contact-box{
+  
 }
 
 
@@ -493,6 +539,7 @@ position: relative;
 
 .contact-button{
   margin-top: 20px;
+  margin-bottom: 40px;
   width: 300px;
   height: 80px;
   line-height: 80px;
@@ -500,19 +547,42 @@ position: relative;
   margin-right: auto;
 }
 
-.button_text{
+.button_text:before{
+      content: "";
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      margin: -3px 5px 0 0;
+      background: url("img/mailicon.svg") no-repeat;
+      background-size: contain;
+      vertical-align: middle;
+}
 
-      display: block;
-      width: 100%;
-      height: 100%;
-      text-decoration: none;
-      background-image: linear-gradient(to right, #eb0597 30%, #96075a 70%);
-      text-align: center;
-      color: #FFFFFF;
-      font-size: 20px;
-      border-radius: 50px;
-      -webkit-border-radius: 50px;
-      -moz-border-radius: 50px;
-      box-shadow: 0px 8px 0px 0px #9A0053;
-      text-shadow: 0px 0px 0px #FFFFFF;
-    }
+.button_text{
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  background-image: linear-gradient(to right, #eb0597 30%, #96075a 70%);
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 20px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  box-shadow: 0px 8px 0px 0px #9A0053;
+  text-shadow: 0px 0px 0px #FFFFFF;
+  }
+
+.footer{
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  background-color: lightgray;
+}
+
+.footer_text{
+  color: dimgray;
+}
+
