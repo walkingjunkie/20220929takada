@@ -49,6 +49,7 @@ main{
   position: absolute;
   top: 100px;
   left: 300px;
+  line-height: 1em;
 }
 
 .emo-text{
@@ -112,10 +113,8 @@ padding:2px;
 }
 
 .news__list{
-  padding:15px 10px;
+  padding:10px;
   list-style: none;
-  border-bottom:1px solid lightgrey;
-  
 }
 
 .news_list_date{
@@ -125,11 +124,11 @@ padding:2px;
 
 .news_list_tag{
   display: inline-block; 
-  padding: 2px 15px;
+  padding: 5px 15px;
   border-radius: 25px; 
   color: #FFF;
   background-color: #CC0099;
-  margin: 0px 20px;
+  margin: 0 5px;
 }
 .news_list_text{
   color: gray;
@@ -369,18 +368,22 @@ line-height: 30px;
 .blog_area{
   display: flex;
   padding-bottom: 25px;
+  min-width: 0;
   flex-direction: row;
-  flex-wrap: wrap;
+
 }
 
 .blog__date{
   text-align: left;
+  width: 50%;
+font-size: 1vw;
+
 }
 
 .blog__tag{
 margin-left: auto;
 margin-right: 0;
-
+font-size:1vw;
 }
 
 .blog__bottom {
